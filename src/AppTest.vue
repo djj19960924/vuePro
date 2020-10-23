@@ -8,7 +8,9 @@
     <router-link :to="{name:'page',query:{id:1,title:'foo'}}">Page</router-link>|
     <!-- 路由嵌套 -->
     <router-link to="/user/1/profile">user/1/profile</router-link>|
-    <router-link to="/user/1/posts">user/1/posts</router-link>
+    <router-link to="/user/1/posts">user/1/posts</router-link>|
+    <router-link :to="{name:'notes'}">我的笔记</router-link>|
+    
   </div>
   <!-- router-view相当于路由组件的出口  -->
   <!-- Home组件 -->

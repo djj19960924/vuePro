@@ -46,9 +46,14 @@ const routes = [
     ]
   },
   {
-    path: 'notes',
+    path: '/notes',
     name: 'notes',
     component: () => import('@/view/Notes')
+  },
+  {
+    path: '/login',
+    name: 'login',
+    component: () => import('@/view/Login')
   },
   //http://localhost:8080/page?id=1&title=foo query
   {

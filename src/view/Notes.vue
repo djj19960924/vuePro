@@ -1,6 +1,6 @@
 <template>
 <div>
-  Notes
+  <h2>我的笔记</h2>
 </div>
 </template>
 
