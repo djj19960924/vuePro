@@ -1,18 +1,15 @@
 <template>
 <div>
-  <h1>Home</h1>
+  <h3>我的博客页</h3>
 </div>
 </template>
 
 <script>
 export default {
-  name: 'Home',
-  data() {
-    return {}
-  },
+
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
 
 </style>

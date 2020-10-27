@@ -48,7 +48,11 @@ const routes = [
   {
     path: '/notes',
     name: 'notes',
-    component: () => import('@/view/Notes')
+    component: () => import('@/view/Notes'),
+    meta: {
+      // 加到黑名单
+      requireAuth: true
+    }
   },
   {
     path: '/login',
@@ -60,6 +64,15 @@ const routes = [
     path: '/page',
     name: 'page',
     component: () => import('@/view/Page')
+  },
+  {
+    path: '/blog',
+    name: 'blog',
+    component: () => import('@/view/Blog'),
+    meta: {
+      // 加到黑名单
+      requireAuth: true
+    }
   },
   {
     path: '/user-*',

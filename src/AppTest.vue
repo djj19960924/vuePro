@@ -10,7 +10,8 @@
     <router-link to="/user/1/profile">user/1/profile</router-link>|
     <router-link to="/user/1/posts">user/1/posts</router-link>|
     <router-link :to="{name:'notes'}">我的笔记</router-link>|
-    
+    <router-link :to="{name:'blog'}">博客</router-link>|
+
   </div>
   <!-- router-view相当于路由组件的出口  -->
   <!-- Home组件 -->

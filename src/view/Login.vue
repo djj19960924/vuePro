@@ -26,7 +26,7 @@ export default {
         //保存用户名到本地
         localStorage.setItem('user', JSON.stringify(data))
         this.$router.push({
-          name: 'notes'
+          path: this.$route.query.redirect
         })
       }, 1000)
     }
